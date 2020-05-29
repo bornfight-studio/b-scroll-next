@@ -2,71 +2,71 @@
 <img width="84px" src="https://www.bornfight.com/wp-content/themes/bf/static/ui/BF-sign-dark.svg?" title="Bornfight" alt="Bornfight">
 </a>
 
-# b-lib-boilerplate [[all b- libs](https://github.com/bornfight/b-lib-archive/)]
-> Bornfight frontend project based on gulp, es6 and scss
+# b-scroll-next [[all b- libs](https://github.com/bornfight/b-lib-archive/)]
+> Bornfight frontend micro lib for scrolling to next section
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight/b-creative?style=flat-square)
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight/b-creative?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/bornfight/b-creative?style=flat-square)
-![GitHub](https://img.shields.io/github/license/bornfight/b-creative?style=flat-square)
-
-##### ⚠ IMPORTANT NOTICE - module not yet published on npm ⚠
-Change:
-- package.json > "name": "c-lib-boilerplate"
-- package.json > "description": "...."
-- package.json > "main": "src/js/LibName.js"
-- LibName.js > replace with your lib name in places where it is used
-- add keywords to package.json
+![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight/b-scroll-next?style=flat-square)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight/b-scroll-next?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/bornfight/b-scroll-next?style=flat-square)
+![GitHub](https://img.shields.io/github/license/bornfight/b-scroll-next?style=flat-square)
 
 ## 📦 Getting Started
 
-- install `b-lib` trough __npm__ or pull ti from git
+Dependency: `gsap`
+
+- install `b-scroll-next` trough __npm__ or pull ti from git
 
 ```
-npm i @bornfight/b-lib
+npm i @bornfight/b-scroll-next
 ```
 
-- include b-lib to your __JS__ and __SCSS__ after running __npm install__
+- include b-scroll-next to your __JS__ after running __npm install__
 
 ## 🔨️ Usage 
 ###### JS
 ``` JS
-import LibName from "@bornfight/b-lib";
-```
+import ScrollNext from "@bornfight/b-scroll-next";
 
-###### SCSS
-``` SCSS
-@import "~b-lib/src/scss/b-lib.scss";
+new ScrollNext();
 ```
 
 ##### HTML markup
 
 ```HTML
-<p class="b-lib-class">
-    Lib Element
+<p class="js-scroll-next">
+    Go next
 </p>
 ```
 
 ##### Basic usage tips
-- element needs to have ...
-- ...
-
-##### Advanced usage
-- ...
+- all elements with `.js-scroll-next` class will trigger scroll
      
 ## 💎 Customization
+
+``` JS
+import ScrollNext from "@bornfight/b-scroll-next";
+
+new ScrollNext({
+    element: ".js-links",
+    ease: "expo.ease-in-out",
+    duration: 5,
+    offset: 200
+});
+```
 
 ## ✅ Properties
 
 Option | Type | Default | Example | Description
 ------ | ---- | ------- | ------- | -----------
-parentClass | string | element parent | 'js-parent' | Element will be wrapped and moved to that parent and not to initial parent element 
+element | string | ".js-scroll-next" | ".js-my-scroll-element" | Elements that will be used as "scroll next" triggers   
+offset | number | 0 | 200 | number type value - scroll will be offset by that amount in pixels  
+ease | string | "power3.ease-in-out" | "expo.ease-out" | Scroll ease can be modified (gsap eases) 
+duration | number | 0.5 | 10 | Duration of the scroll in seconds  
 
 ## 🚀 Useful to know
 
-1. ...
-2. ...
-3. ...
+1. offset will reflect to every element inside that instance
+2. without any option it will scroll just below clicked element
    
 ### 📦 Contribute
 

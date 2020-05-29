@@ -6,15 +6,29 @@
     <link rel="stylesheet" href="dist/style.css">
 
     <script type="module">
-        import LibName from "./src/js/LibName.js";
+        import ScrollNext from "./src/js/ScrollNext.js";
 
-        new LibName("passed string");
+        new ScrollNext();
     </script>
+
+    <style>
+        a {
+            display: block;
+        }
+
+        body {
+            height: 200vh;
+        }
+    </style>
 </head>
 <body>
 <a href="http://www.bornfight.com">
     <img width="84px" src="https://www.bornfight.com/wp-content/themes/bf/static/ui/BF-sign-dark.svg?" title="Bornfight"
          alt="Bornfight">
+</a>
+
+<a href="" class="js-scroll-next">
+    Go next
 </a>
 </body>
 </html>

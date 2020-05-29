@@ -1,5 +1,5 @@
 {
-  "name": "@bornfight/b-lib-boilerplate",
+  "name": "@bornfight/b-scroll-next",
   "version": "1.0.0",
   "description": "Bornfight frontend boilerplate for lib development",
   "author": "Bornfight FE team",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bornfight/b-lib-boilerplate/"
+    "url": "https://github.com/bornfight/b-scroll-next/"
   },
   "browserslist": [
     "> 0.5%",
@@ -64,5 +64,7 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gsap": "^3.2.6"
+  }
 }
