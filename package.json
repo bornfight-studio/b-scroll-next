@@ -12,7 +12,9 @@
     "npm": ">=6.14.2"
   },
   "keywords": [
-    "keyword-1"
+    "scroll-to",
+    "scroll-next",
+    "go to"
   ],
   "scripts": {
     "build": "gulp build",
