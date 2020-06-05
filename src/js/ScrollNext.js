@@ -1,5 +1,5 @@
 /**
- * b-scroll-next v 1.0.3
+ * b-scroll-next v 1.0.4
  * Author: Bornfight
  * Repo: https://github.com/bornfight/b-scroll-next
  *
@@ -43,13 +43,13 @@ export default class ScrollNext {
         toNextLink.addEventListener('click', (ev) => {
             ev.preventDefault();
             const toNextLinkPosTop = toNextLink.getBoundingClientRect().top;
+            const scrollPos = (window.pageYOffset || this.document.scrollTop) - (this.document.clientTop || 0);
 
             gsap.to(this.document, {
                 duration: this.defaults.duration,
-                scrollTop: toNextLinkPosTop + toNextLink.clientHeight + this.defaults.offset,
+                scrollTop: toNextLinkPosTop + toNextLink.clientHeight + scrollPos + this.defaults.offset,
                 ease: this.defaults.ease
             })
         });
     }
 }
-
