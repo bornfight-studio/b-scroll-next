@@ -1,6 +1,6 @@
 {
   "name": "@bornfight/b-scroll-next",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bornfight frontend micro lib for scrolling to next element",
   "author": "Bornfight FE team",
   "email": "frontend@bornfight.com",

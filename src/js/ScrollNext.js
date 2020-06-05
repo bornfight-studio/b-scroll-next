@@ -1,5 +1,5 @@
 /**
- * b-scroll-next v 1.0.2
+ * b-scroll-next v 1.0.3
  * Author: Bornfight
  * Repo: https://github.com/bornfight/b-scroll-next
  *
@@ -40,9 +40,9 @@ export default class ScrollNext {
      * @param {Element || HTMLElement} toNextLink
      */
     toNexController(toNextLink) {
-        const toNextLinkPosTop = toNextLink.getBoundingClientRect().top;
         toNextLink.addEventListener('click', (ev) => {
             ev.preventDefault();
+            const toNextLinkPosTop = toNextLink.getBoundingClientRect().top;
 
             gsap.to(this.document, {
                 duration: this.defaults.duration,
