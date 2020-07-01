@@ -1,5 +1,5 @@
 /**
- * b-scroll-next v 1.0.4
+ * b-scroll-next v 1.0.5
  * Author: Bornfight
  * Repo: https://github.com/bornfight/b-scroll-next
  *
@@ -20,7 +20,7 @@ export default class ScrollNext {
         const _defaults = {
             element: ".js-scroll-next",
             offset: 0,
-            ease: "power3.ease-in-out",
+            ease: "power3.inOut",
             duration: 0.5
         };
 

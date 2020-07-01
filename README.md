@@ -48,7 +48,7 @@ import ScrollNext from "@bornfight/b-scroll-next";
 
 new ScrollNext({
     element: ".js-links",
-    ease: "expo.ease-in-out",
+    ease: "expo.inOut",
     duration: 5,
     offset: 200
 });
@@ -60,7 +60,7 @@ Option | Type | Default | Example | Description
 ------ | ---- | ------- | ------- | -----------
 element | string | ".js-scroll-next" | ".js-my-scroll-element" | Elements that will be used as "scroll next" triggers   
 offset | number | 0 | 200 | number type value - scroll will be offset by that amount in pixels  
-ease | string | "power3.ease-in-out" | "expo.ease-out" | Scroll ease can be modified (gsap eases) 
+ease | string | "power3.inOut" | "expo.out" | Scroll ease can be modified (gsap eases) 
 duration | number | 0.5 | 10 | Duration of the scroll in seconds  
 
 ## 🚀 Useful to know
