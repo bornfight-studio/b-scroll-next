@@ -2,13 +2,13 @@
 <img width="84px" src="https://www.bornfight.com/wp-content/themes/bf/static/ui/BF-sign-dark.svg?" title="Bornfight" alt="Bornfight">
 </a>
 
-# b-scroll-next [[all b- libs](https://github.com/bornfight/b-lib-archive/)]
+# b-scroll-next [[all b- libs](https://github.com/bornfight-studio/b-lib-archive/)]
 > Bornfight frontend micro lib for scrolling to next section
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight/b-scroll-next?style=flat-square)
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight/b-scroll-next?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/bornfight/b-scroll-next?style=flat-square)
-![GitHub](https://img.shields.io/github/license/bornfight/b-scroll-next?style=flat-square)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/bornfight-studio/b-scroll-next?style=flat-square)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/bornfight-studio/b-scroll-next?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/bornfight-studio/b-scroll-next?style=flat-square)
+![GitHub](https://img.shields.io/github/license/bornfight-studio/b-scroll-next?style=flat-square)
 
 ## 📦 Getting Started
 

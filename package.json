@@ -1,9 +1,13 @@
 {
   "name": "@bornfight/b-scroll-next",
-  "version": "1.0.5",
-  "description": "Bornfight frontend micro lib for scrolling to next element",
-  "author": "Bornfight FE team",
-  "email": "frontend@bornfight.com",
+  "version": "1.0.6",
+  "description": "Bornfight Studio frontend micro lib for scrolling to next element",
+  "author": {
+    "name": "BORNFIGHT STUDIO®",
+    "email": "hello@bornfight.studio",
+    "url": "https://www.bornfight.studio"
+  },
+  "email": "hello@bornfight.studio",
   "private": false,
   "main": "src/js/ScrollNext.js",
   "license": "MIT",
@@ -25,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bornfight/b-scroll-next/"
+    "url": "https://github.com/bornfight-studio/b-scroll-next/"
   },
   "browserslist": [
     "> 0.5%",

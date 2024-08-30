@@ -1,7 +1,7 @@
 /**
- * b-scroll-next v 1.0.5
- * Author: Bornfight
- * Repo: https://github.com/bornfight/b-scroll-next
+ * b-scroll-next v 1.0.6
+ * Author: Bornfight Studio
+ * Repo: https://github.com/bornfight-studio/b-scroll-next
  *
  * Year: 2020
  */
