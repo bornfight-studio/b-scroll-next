@@ -1,5 +1,5 @@
 /**
- * b-scroll-next v 1.0.6
+ * b-scroll-next v 1.0.7
  * Author: Bornfight Studio
  * Repo: https://github.com/bornfight-studio/b-scroll-next
  *

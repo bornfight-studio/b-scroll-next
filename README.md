@@ -1,4 +1,4 @@
-<a href="http://www.bornfight.com">
+<a href="https://www.bornfight.studio/">
 <img width="84px" src="https://www.bornfight.com/wp-content/themes/bf/static/ui/BF-sign-dark.svg?" title="Bornfight" alt="Bornfight">
 </a>
 
